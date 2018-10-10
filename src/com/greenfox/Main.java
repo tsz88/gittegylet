@@ -7,7 +7,7 @@ public class Main {
 
     Age age = new Age();
 
-    age.count(30);
+    age.count("C", 30);
 
   }
 
