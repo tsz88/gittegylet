@@ -1,1 +1,5 @@
-.ideaout *.iml *.xml.DS_Store
+.idea
+out
+*.iml
+*.xml
+.DS_Store
