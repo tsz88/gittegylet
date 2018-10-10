@@ -2,7 +2,7 @@ package com.greenfox;
 
 public class Age {
 
-  public void count() {
-    System.out.println("30");
+  public void count(int input) {
+    System.out.println(input);
   }
 }

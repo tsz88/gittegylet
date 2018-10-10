@@ -3,15 +3,15 @@ package com.greenfox;
 public class Main {
 
   public static void main(String[] args) {
-    greet();
+    greet("Szilvi");
 
     Age age = new Age();
 
-    age.count();
+    age.count(30);
 
   }
 
-  public static void greet(){
-    System.out.println("Szilvi");
+  public static void greet(String name){
+    System.out.println(name);
   }
 }
