@@ -2,8 +2,8 @@ package com.greenfox;
 
 public class Age {
 
-  public void count(int input) {
-    System.out.println(input);
+  public void count(String name, int input) {
+    System.out.println(name + input);
 
   }
 }
