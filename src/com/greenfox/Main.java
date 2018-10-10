@@ -3,7 +3,7 @@ package com.greenfox;
 public class Main {
 
   public static void main(String[] args) {
-    greet("Greetings");
+    greet("Szilvi", "Ms");
 
     Age age = new Age();
 
@@ -11,7 +11,7 @@ public class Main {
 
   }
 
-  public static void greet(String name){
-    System.out.println(name);
+  public static void greet(String name, String title){
+    System.out.println(title + name);
   }
 }
