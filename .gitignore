@@ -1,1 +1,4 @@
-.ideaout *.iml *.xml.DS_Store
+.ideaout
+*.iml
+*.xml
+.DS_Store
